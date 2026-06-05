@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TU Cover Page Generator</title>
+  <meta name="description" content="Free TU Cover Page Generator for Tribhuvan University students. Create professional assignment cover pages and download PDF instantly.">
+  <meta name="keywords" content="TU cover page generator, Tribhuvan University cover page, TU assignment cover page, CSIT cover page format, Nepal cover page generator">
+  <meta name="author" content="Pragyan Acharya">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="TU Cover Page Generator">
+  <meta property="og:description" content="Create TU assignment cover pages easily and download as PDF.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pragyanacharya.com/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://pragyanacharya.com/">
+  <meta name="theme-color" content="#0a0a0a">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"TU Cover Page Generator","url":"https://tucoverpaper.netlify.app/","description":"Free Tribhuvan University cover page generator.","applicationCategory":"EducationalApplication","operatingSystem":"Web","author":{"@type":"Person","name":"Pragyan Acharya"}}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css?v=printblankfix">
+</head>
+<body>
+
+  <header class="site-header" id="home">
+    <div class="brand">
+      <div class="brand-icon">📄</div>
+      <div>
+        <div class="brand-name">TU Cover Generator</div>
+        <div class="brand-sub"></div>
+      </div>
+    </div>
+    <nav class="header-nav">
+      <a href="#hero">Home</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#generator">Generator</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class='bx bx-moon' id="theme-icon"></i>
+      </button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+        <i class='bx bx-menu'></i>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1>Professional Cover Page<br><span class="accent">Generator</span></h1>
+      <p>Create, preview, and download your TU assignment cover page in seconds. No sign up. No cost. Ever.</p>
+      <a href="#generator" class="btn-primary">
+        <i class='bx bx-edit'></i> Start Generating
+      </a>
+    </div>
+    <div class="hero-graphic">
+      <div class="mock-page">
+        <div class="mock-logo-circle">🎓</div>
+        <div class="mock-line thick"></div>
+        <div class="mock-line med"></div>
+        <div class="mock-line short"></div>
+        <div class="mock-divider"></div>
+        <div class="mock-row"><div class="mock-dot"></div><div class="mock-line flex-line"></div></div>
+        <div class="mock-row"><div class="mock-dot"></div><div class="mock-line flex-line short"></div></div>
+        <div class="mock-row"><div class="mock-dot"></div><div class="mock-line flex-line med"></div></div>
+        <div class="mock-row"><div class="mock-dot"></div><div class="mock-line flex-line"></div></div>
+        <div class="mock-divider"></div>
+        <div class="mock-line short center"></div>
+        <div class="mock-line med center"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="how-it-works" id="how-it-works">
+    <h2 class="section-heading">How It <span>Works</span></h2>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-num">01</div>
+        <i class='bx bx-edit-alt step-icon'></i>
+        <h3>Fill Details</h3>
+        <p>Enter your university, college, subject, and student information in the form.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">02</div>
+        <i class='bx bx-show step-icon'></i>
+        <h3>Live Preview</h3>
+        <p>Watch the A4 cover page update in real-time as you type each field.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">03</div>
+        <i class='bx bx-printer step-icon'></i>
+        <h3>Print / Save PDF</h3>
+        <p>Click download to open the print dialog and save a native PDF of your cover page.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="generator-section" id="generator">
+    <h2 class="section-heading">Build Your <span>Cover Page</span></h2>
+    <div class="main-wrap">
+
+      <aside class="form-panel">
+        <div class="form-header">
+          <h2><i class='bx bx-cog'></i> Cover Page Settings</h2>
+          <p></p>
+        </div>
+        <div class="form-body">
+
+          <div class="form-section">
+            <div class="section-label">🏛 Institution</div>
+            <div class="input-group">
+              <label>University Name</label>
+              <div class="input-wrap">
+                <i class='bx bx-buildings input-icon'></i>
+                <input type="text" id="universityName" value="Tribhuvan University">
+              </div>
+            </div>
+            <div class="input-group">
+              <label>College Name</label>
+              <div class="input-wrap">
+                <i class='bx bx-building input-icon'></i>
+                <input type="text" id="collegeName" value="Ramsagar Ramswarup Multiple Campus">
+              </div>
+            </div>
+            <div class="input-group">
+              <label>College Address</label>
+              <div class="input-wrap">
+                <i class='bx bx-map input-icon'></i>
+                <input type="text" id="collegeAddress" value="Janakpur -14, Dhanusha, Nepal">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <div class="section-label">📚 Academic</div>
+            <div class="input-group">
+              <label>Faculty</label>
+              <div class="input-wrap">
+                <i class='bx bx-graduation input-icon'></i>
+                <input type="text" id="faculty" value="BSc.CSIT">
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Department</label>
+              <div class="input-wrap">
+                <i class='bx bx-book input-icon'></i>
+                <input type="text" id="department" value="Department of TUIOST">
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Specific Department</label>
+              <textarea id="specificDepartment">Computer Science and Information Technology (BSc.CSIT)</textarea>
+            </div>
+            <div class="input-group">
+              <label>Semester</label>
+              <div class="input-wrap">
+                <i class='bx bx-calendar input-icon'></i>
+                <input type="text" id="semester" value="3rd Semester">
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Subject</label>
+              <div class="input-wrap">
+                <i class='bx bx-book-open input-icon'></i>
+                <input type="text" id="subject" value="Numerical Method">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <div class="section-label">🎓 Student</div>
+            <div class="input-group">
+              <label>Student Name</label>
+              <div class="input-wrap">
+                <i class='bx bx-user input-icon'></i>
+                <input type="text" id="studentName" value="Pragyan Acharya">
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Roll Number</label>
+              <div class="input-wrap">
+                <i class='bx bx-hash input-icon'></i>
+                <input type="text" id="rollNumber" placeholder="Enter your roll number">
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Registration Number</label>
+              <div class="input-wrap">
+                <i class='bx bx-id-card input-icon'></i>
+                <input type="text" id="registrationNumber" placeholder="Enter your registration number">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <div class="section-label">📝 Submission</div>
+            <div class="input-group">
+              <label>Teacher Name</label>
+              <div class="input-wrap">
+                <i class='bx bx-user-check input-icon'></i>
+                <input type="text" id="teacherName" value="Prof. Ram Bahadur Thapa">
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Submitted To (Institution)</label>
+              <div class="input-wrap">
+                <i class='bx bx-send input-icon'></i>
+                <input type="text" id="submittedTo" value="Ramsagar Ramswarup Multiple Campus">
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Campus Location</label>
+              <div class="input-wrap">
+                <i class='bx bx-map-pin input-icon'></i>
+                <input type="text" id="campusLocation" value="Campus Chowk, Janakpur">
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Affiliation</label>
+              <div class="input-wrap">
+                <i class='bx bx-link input-icon'></i>
+                <input type="text" id="affiliation" value="Affiliated To Tribhuvan University">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <div class="section-label">🖼 Logo</div>
+            <label class="file-label" for="logoInput">
+              <i class='bx bx-image-add'></i>
+              <span id="fileName">Upload Logo (Optional)</span>
+              <input type="file" id="logoInput" accept="image/*">
+            </label>
+          </div>
+
+          <button class="btn-download" onclick="window.print()">
+            <i class='bx bxs-file-pdf'></i> Download PDF
+          </button>
+          
+          <button class="btn-reset" onclick="resetDefaults()">
+            <i class='bx bx-refresh'></i> Reset to Defaults
+          </button>
+        </div>
+      </aside>
+
+      <div class="preview-panel">
+        <div class="preview-toolbar">
+          <div class="preview-toolbar-left">
+            <div class="live-dot"></div>
+            <span class="preview-label">Live Preview</span>
+          </div>
+        </div>
+        
+        <div class="preview-frame">
+          <div id="pdf-content">
+            <div class="cover-page">
+              <div class="logo-container">
+                <img src="logo.png" id="logoPreview" alt="University Logo" onerror="this.style.display='none'">
+              </div>
+              <div class="university">
+                <h1 id="previewUniversityName">Tribhuvan University</h1>
+                <h2 id="previewCollegeName">Ramsagar Ramswarup Multiple Campus</h2>
+                <p id="previewCollegeAddress">Janakpur -14, Dhanusha, Nepal</p>
+              </div>
+              <hr class="divider">
+              <div class="details">
+                <div class="row"><div class="label">Faculty</div><div class="colon">:</div><div class="value" id="previewFaculty">BSc.CSIT</div></div>
+                <div class="row"><div class="label">Department</div><div class="colon">:</div><div class="value" id="previewDepartment">Department of TUIOST</div></div>
+                <div class="row"><div class="label">Specific Department</div><div class="colon">:</div><div class="value" id="previewSpecificDepartment">Computer Science and Information Technology (BSc.CSIT)</div></div>
+                <div class="row"><div class="label">Semester</div><div class="colon">:</div><div class="value" id="previewSemester">3rd Semester</div></div>
+                <div class="row"><div class="label">Subject</div><div class="colon">:</div><div class="value" id="previewSubject">Numerical Method</div></div>
+                <div class="row"><div class="label">Student Name</div><div class="colon">:</div><div class="value" id="previewStudentName">Pragyan Acharya</div></div>
+                <div class="row"><div class="label">Roll Number</div><div class="colon">:</div><div class="value" id="previewRollNumber"></div></div>
+                <div class="row"><div class="label">Registration Number</div><div class="colon">:</div><div class="value" id="previewRegistrationNumber"></div></div>
+              </div>
+              <hr class="divider">
+              <div class="submitted">
+                <h2>Submitted To</h2>
+                <h3 id="previewSubmittedTo">Ramsagar Ramswarup Multiple Campus</h3>
+                <p id="previewCampusLocation">Campus Chowk, Janakpur</p>
+                <p id="previewAffiliation">(Affiliated To Tribhuvan University)</p>
+                <br>
+                <h3>Submitted By</h3>
+                <div class="student-name" id="previewStudentBottom">PRAGYAN ACHARYA</div>
+              </div>
+              <div class="signature-area">
+                <div class="signature-box">
+                  <h3>SIGNATURE</h3>
+                  <p>.......................................</p>
+                  <p id="previewTeacherName">(Prof. Ram Bahadur Thapa)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-name">TU Cover Generator</span>
+        <p>Built for Tribhuvan University students across Nepal.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#hero"><i class='bx bx-home'></i> Home</a>
+        <a href="#generator"><i class='bx bx-edit'></i> Generator</a>
+        <a href="#how-it-works"><i class='bx bx-cog'></i> How it Works?</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright &copy; 2024 by Pragyan <span>Acharya</span> | All Rights Reserved</p>
+      <a href="#home" class="back-top" id="backTopBtn" title="Back to top"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="script.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"86e5fdf9ad574cc6a6d884d3a465ba5e","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
