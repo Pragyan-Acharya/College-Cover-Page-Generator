@@ -33,3 +33,10 @@ tu-cover-generator/
 ├── script.js        # Form logic, live preview binding, and theme toggling
 ├── logo.png         # Default TU (Tribhuvan University) placeholder logo image
 └── README.md        # Project documentation
+
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome! If you have an idea to improve the layout, add new university formats, or optimize the code, feel free to fork the repository and submit a Pull Request.
+
+📜 License
+This project is open-source and free to use for educational purposes. Copyright © 2024 by Pragyan Acharya. All Rights Reserved.
