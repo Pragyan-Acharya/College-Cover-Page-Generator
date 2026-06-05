@@ -31,5 +31,5 @@ tu-cover-generator/
 ├── index.html       # The main HTML layout and structure
 ├── style.css        # UI styling, responsive design, and print media queries
 ├── script.js        # Form logic, live preview binding, and theme toggling
-├── logo.png         # Default TU placeholder logo image
+├── logo.png         # Default TU (Tribhuvan University) placeholder logo image
 └── README.md        # Project documentation
