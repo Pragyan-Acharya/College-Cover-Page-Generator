@@ -25,18 +25,38 @@ This project is built purely with standard web technologies. No heavy frameworks
 
 ## 📂 Folder Structure
 
-```text
+```text id="v8m1qe"
 tu-cover-generator/
 │
-├── index.html       # The main HTML layout and structure
-├── style.css        # UI styling, responsive design, and print media queries
-├── script.js        # Form logic, live preview binding, and theme toggling
-├── logo.png         # Default TU (Tribhuvan University) placeholder logo image
+├── index.html       # Main HTML structure and application layout
+├── style.css        # Styling, responsive UI, and print optimization
+├── script.js        # Form handling, live preview updates, and theme logic
+├── logo.png         # Default Tribhuvan University logo placeholder
 └── README.md        # Project documentation
-``text
+```
 
-🤝 Contributing
-Contributions, issues, and feature requests are welcome! If you have an idea to improve the layout, add new university formats, or optimize the code, feel free to fork the repository and submit a Pull Request.
+---
 
-📜 License
-This project is open-source and free to use for educational purposes. Copyright © 2024 by Pragyan Acharya. All Rights Reserved.
+## 🤝 Contributing
+
+Contributions, feature suggestions, and improvements are always welcome!
+
+If you'd like to enhance the project by:
+
+* Adding support for more universities
+* Improving the UI/UX
+* Optimizing performance
+* Fixing bugs
+* Adding export or customization features
+
+Feel free to fork the repository, make your changes, and submit a Pull Request.
+
+---
+
+## 📜 License
+
+This project is open-source and intended for educational purposes only.
+
+Copyright © 2024 Pragyan Acharya.
+All Rights Reserved.
+
